@@ -5,7 +5,7 @@ const fs = require("fs");
 const { RSA_PSS_SALTLEN_AUTO } = require("constants");
 
 var app = express();
-var PORT = 5000;
+var PORT = process.env.PORT || 3001;
 
 //Creating notes array
 
